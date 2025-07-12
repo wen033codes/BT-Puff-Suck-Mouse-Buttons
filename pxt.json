@@ -1,0 +1,34 @@
+{
+    "name": "藍牙吹吸滑鼠按鍵",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "HX711": "github:daferdur/pxt-myHX711#v1.0.18",
+        "microbit-pxt-blehid - Copy": "github:bsiever/microbit-pxt-blehid#v0.1.0"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "main.blocks"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v7.0.40",
+        "tag": "v7.0.40",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/8e8a9c493b2f715d0c57084dd68e02803c7a4daa",
+        "target": "7.0.61",
+        "pxt": "10.2.36",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "ignoreConflicts": true
+    }
+}
